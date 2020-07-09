@@ -1,2 +1,13 @@
 @import url(./_en/header__lang_en.css);
 @import url(./_ru/header__lang_ru.css);
+
+.header__lang {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 25px;
+}
