@@ -2,3 +2,10 @@
 @import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
 
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 690px;
+  margin-top: 92px;
+}

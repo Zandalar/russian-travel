@@ -4,9 +4,8 @@
 @import url(./__title/lead__title.css);
 
 .lead {
-  min-width: 75%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-self: start;
+  margin: 56px auto 0;
 }
