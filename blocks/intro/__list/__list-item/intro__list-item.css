@@ -1,3 +1,5 @@
+@import url(./_normal/intro__list-item_normal.css);
+
 .intro__list_item {
   font-style: normal;
   font-weight: bold;

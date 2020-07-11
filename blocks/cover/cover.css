@@ -4,11 +4,20 @@
 @import url(./__title/cover__title.css);
 
 .cover {
+  background-image: url(../../images/cover-trains.png);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 100%;
+  min-width: 92.5%;
   min-height: 740px;
   position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+  .cover {
+    min-width: 1024px;
+    min-height: 640px;
+  }
 }

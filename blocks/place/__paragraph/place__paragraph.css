@@ -6,5 +6,14 @@
   line-height: 167%;
   color: #fff;
   margin: 0 0 24px;
-  max-width: 484px;
+}
+
+.place__paragraph:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .place__paragraph {
+    margin: 0 0 27px;
+  }
 }
