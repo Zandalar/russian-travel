@@ -15,6 +15,11 @@
   position: relative;
 }
 
+.cover:hover .cover__overlay {
+  opacity: .8;
+  transition: opacity .2s;
+}
+
 @media screen and (max-width: 1200px) {
   .cover {
     min-width: 100%;
