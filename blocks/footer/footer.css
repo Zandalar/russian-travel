@@ -1,6 +1,7 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link/footer__link.css);
 @import url(./__menu/footer__menu.css);
+@import url(./__menu/footer__menu-item.css);
 
 .footer {
   min-width: 92.5%;
@@ -9,10 +10,18 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 92px;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1200px) {
   .footer {
     min-width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .footer {
+    min-width: 93.75%;
+    padding-top: 88px;
   }
 }

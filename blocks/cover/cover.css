@@ -26,3 +26,10 @@
     min-height: 640px;
   }
 }
+
+@media screen and (max-width: 896px) {
+  .cover {
+    min-width: 100%;
+    min-height: 480px;
+  }
+}

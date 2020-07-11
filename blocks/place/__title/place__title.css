@@ -8,3 +8,11 @@
   color: #fff;
   margin: 0;
 }
+
+@media screen and (max-width: 896px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 110%;
+  }
+
+}
