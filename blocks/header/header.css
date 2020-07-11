@@ -19,3 +19,9 @@
     min-width: 93.75%;
   }
 }
+
+@media screen and (max-width: 544px) {
+  .header {
+    min-width: 90%;
+  }
+}

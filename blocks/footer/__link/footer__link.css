@@ -6,7 +6,7 @@
   line-height: 113%;
   list-style: none;
   padding: 0;
-  margin-right: 18px;
+  margin: 0 18px 0 0;
   text-decoration: none;
   color: #fff;
 }
@@ -14,4 +14,12 @@
 .footer__link:hover {
   opacity: .8;
   transition: opacity .2s;
+}
+
+@media screen and (max-width: 544px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 100%;
+    margin: 0 0 32px;
+  }
 }

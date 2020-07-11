@@ -9,3 +9,9 @@
   align-items: center;
   padding-top: 56px;
 }
+
+@media screen and (max-width: 896px) {
+  .lead {
+    padding-top: 48px;
+  }
+}
