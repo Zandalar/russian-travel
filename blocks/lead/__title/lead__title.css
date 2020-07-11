@@ -7,3 +7,9 @@
   color: #fff;
   margin: 56px 0 32px;
 }
+
+@media screen and (max-width: 1200px) {
+  .lead__title {
+    margin-top: 48px;
+  }
+}
