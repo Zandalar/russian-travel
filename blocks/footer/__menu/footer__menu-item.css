@@ -2,7 +2,7 @@
   list-style: none;
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 735px) {
   .footer__menu-item {
     margin-bottom: 32px;
   }

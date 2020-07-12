@@ -27,13 +27,13 @@
   }
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 945px) {
   .cover {
     min-height: 480px;
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 735px) {
   .cover {
     min-height: 200px;
   }

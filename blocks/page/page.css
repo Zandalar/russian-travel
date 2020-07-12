@@ -16,13 +16,13 @@
   }
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 945px) {
   .page {
     max-width: 768px;
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 735px) {
   .page {
     max-width: 320px;
   }

@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 945px) {
   .photo-grid {
     min-width: 93.75%;
     grid-template-columns: repeat(auto-fit, minmax(min-content, 352px));
@@ -25,7 +25,7 @@
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 735px) {
   .photo-grid {
     min-width: 90%;
     grid-template-columns: minmax(min-content, 288px);
