@@ -27,7 +27,8 @@
 
 @media screen and (max-width: 544px) {
   .place {
-    grid-template-columns: min-content;
+    grid-template-columns: 90%;
     gap: 32px;
+    justify-content: center;
   }
 }
