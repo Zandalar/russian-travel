@@ -4,6 +4,7 @@
 @import url(./__website/place__website.css);
 @import url(./__link/place__link.css);
 @import url(./__url-heading/place__url-heading.css);
+@import url(./__text/place__text.css);
 
 .place {
   display: grid;
@@ -25,7 +26,7 @@
   }
 }
 
-@media screen and (max-width: 735px) {
+@media screen and (max-width: 740px) {
   .place {
     grid-template-columns: 90%;
     gap: 32px;

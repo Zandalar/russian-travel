@@ -1,7 +1,7 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link/footer__link.css);
 @import url(./__menu/footer__menu.css);
-@import url(./__menu/footer__menu-item.css);
+@import url(./__menu-item/footer__menu-item.css);
 
 .footer {
   min-width: 92.5%;
@@ -19,14 +19,14 @@
   }
 }
 
-@media screen and (max-width: 945px) {
+@media screen and (max-width: 900px) {
   .footer {
     min-width: 93.75%;
     padding-top: 88px;
   }
 }
 
-@media screen and (max-width: 735px) {
+@media screen and (max-width: 600px) {
   .footer {
     min-width: 90%;
     flex-direction: column;

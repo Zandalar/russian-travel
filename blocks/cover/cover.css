@@ -1,4 +1,3 @@
-@import url(./__background/cover__background.css);
 @import url(./__overlay/cover__overlay.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__title/cover__title.css);
@@ -18,18 +17,6 @@
 @media screen and (max-width: 1200px) {
   .cover {
     min-width: 100%;
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 945px) {
-  .cover {
-    min-height: 480px;
-  }
-}
-
-@media screen and (max-width: 735px) {
-  .cover {
-    min-height: 200px;
+    min-height: 60vw;
   }
 }

@@ -7,13 +7,13 @@
   margin: 0;
 }
 
-@media screen and (max-width: 945px) {
+@media screen and (max-width: 900px) {
   .place__text {
     font-size: 16px;
     line-height: 162%;
   }
 
-@media screen and (max-width: 735px) {
+@media screen and (max-width: 600px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 162%;
