@@ -1,9 +1,4 @@
 .place__paragraph {
-  font-family: Inter, Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 167%;
   color: #fff;
   margin: 0 0 24px;
 }
@@ -20,19 +15,10 @@
 
 @media screen and (max-width: 945px) {
   .place__paragraph {
-    font-size: 16px;
-    line-height: 162%;
     margin: 0 0 24px;
   }
 
   .place__paragraph:last-child {
-    margin-bottom: 4;
-  }
-}
-
-@media screen and (max-width: 735px) {
-  .place__paragraph {
-    font-size: 16px;
-    line-height: 162%;
+    margin-bottom: 4px;
   }
 }

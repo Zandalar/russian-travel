@@ -1,6 +1,3 @@
-@import url(./_en/header__lang_en.css);
-@import url(./_ru/header__lang_ru.css);
-
 .header__lang {
   list-style: none;
   display: grid;
