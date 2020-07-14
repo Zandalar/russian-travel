@@ -6,19 +6,3 @@
 .place__paragraph:last-child {
   margin: 0;
 }
-
-@media screen and (max-width: 1200px) {
-  .place__paragraph {
-    margin: 0 0 27px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .place__paragraph {
-    margin: 0 0 24px;
-  }
-
-  .place__paragraph:last-child {
-    margin-bottom: 4px;
-  }
-}

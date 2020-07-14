@@ -20,3 +20,10 @@
     min-height: 60vw;
   }
 }
+
+@media screen and (min-width: 1281px) {
+  .cover {
+    height: 768px;
+  }
+}
+

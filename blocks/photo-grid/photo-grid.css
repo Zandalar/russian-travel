@@ -30,6 +30,7 @@
     min-width: 90%;
     grid-template-columns: minmax(min-content, 288px);
     padding-top: 64px;
+    gap: 12px;
   }
 }
 

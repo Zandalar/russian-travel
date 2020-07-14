@@ -13,6 +13,12 @@
   text-decoration: none;
 }
 
+@media screen and (min-width: 1280px) {
+  .footer {
+    min-width: 1184px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .footer {
     min-width: 90.625%;
@@ -31,7 +37,7 @@
     min-width: 90%;
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 92px;
+    padding-top: 64px;
     margin: 0;
   }
 }

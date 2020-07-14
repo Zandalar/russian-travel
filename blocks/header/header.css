@@ -1,13 +1,19 @@
-@import url(./__lang-link/_disactive/header__lang-link_disactive.css);
 @import url(./__logo/header__logo.css);
 @import url(./__lang/header__lang.css);
 @import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
   min-width: 92.5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    min-width: 1184px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
